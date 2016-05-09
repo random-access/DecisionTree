@@ -59,14 +59,14 @@ public class App {
 
     public static void main(String[] args) {
 
-        App calc = new App();
+        App app = new App();
 
         try {
-            calc.readLiteralsAndRules();
-            calc.printLiteralsAndRules("INPUT");
-            calc.specifyTarget();
-            calc.calculateAndPrintResult();
-            calc.printLiteralsAndRules("OUTPUT");
+            app.readLiteralsAndRules();
+            app.printLiteralsAndRules("INPUT");
+            app.specifyTarget();
+            app.calculateAndPrintResult();
+            app.printLiteralsAndRules("OUTPUT");
         } catch (IOException e) {
             System.out.println ("File not found!");
         }
