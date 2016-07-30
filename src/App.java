@@ -54,7 +54,7 @@ public class App {
     }
 
     public void calculateAndPrintResult() {
-        System.out.println("RESULT: " + new Calculator(tree, target).calculate());
+        System.out.println("RESULT: " + new DecisionCalculator(tree, target).calculate());
     }
 
     public static void main(String[] args) {

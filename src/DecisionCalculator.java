@@ -5,12 +5,12 @@ import java.util.ArrayList;
     /**
     * Created by Monika Schrenk on 04.05.16.
     */
-public class Calculator {
+public class DecisionCalculator {
 
     private DecisionTree tree;
     private DecisionLiteral target;
 
-    public Calculator(DecisionTree tree, DecisionLiteral target) {
+    public DecisionCalculator(DecisionTree tree, DecisionLiteral target) {
         this.tree = tree;
         this.target = target;
     }
